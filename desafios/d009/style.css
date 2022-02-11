@@ -1,0 +1,12 @@
+body{
+        background-color: black;
+    }
+
+h1, p, a{
+        color: white;
+        text-align: center;
+    }
+img{
+    margin: auto;
+    display: block;
+}
