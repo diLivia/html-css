@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: auto;
+        }
+        nav{
+            background-color: gray;
+            padding: 5px;
+            text-align: justify;
+            box-shadow: 5px 3px 5px 1px rgba(0, 0, 0, 0.363);
+        }
+        nav > a{
+            text-decoration: none;
+            color: yellow;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 3px 20px;
+        }
+        section > p{
+            font-weight: bolder;
+            font-size: large;
+            text-align: end;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: gray;
+        }
+        footer{
+            background-color: black;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header> <!-- cabeçalho -->
+        <h1>Meu site bonito</h1>
+        <nav> <!-- usado para navegação, normalmente tem links -->
+            <a href="#">Esportes</a>
+            <a href="#">Tecnologia</a>
+            <a href="#">Política</a>
+            <a href="#">Mercado</a>
+            <a href="#"></a>
+        </nav>
+    </header>
+    <main> <!-- conteúdo principal-->
+        <section> <!-- sessão da página-->
+            <p>Destaques</p>
+        </section>
+        <section>
+            <article> <!-- artigo -->
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestiae ad consequatur nisi vitae eum possimus, eveniet fuga nesciunt, rerum tenetur, dicta maxime autem eius incidunt tempore fugiat voluptates temporibus?</p>
+                <aside> <!-- lateral -->
+                    <p>Escrito por:  Maria Almeida</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Lívia</p>
+    </footer>
+</body>
+</html>

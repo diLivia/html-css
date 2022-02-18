@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > p{ /* Faz o texto que está na tag p dentro da div desaparecer */
+            display: none;
+        }
+        div:hover > p{ /* Quando passarmos o mouse em cima do texto na div, o texto que está em p aparecerá */
+            display: block;
+            color: white;
+            background-color: brown;
+            width: 300px;
+        }
+        div:hover{ /* cor que ficará quando passarmos o mouse sobre o texto */
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim do exemplo</p>
+</body>
+</html>
